@@ -1,0 +1,11 @@
+body {
+   padding-top: 70px;
+}
+.headPhoto {
+   max-width: 200px;
+   /*float: right;*/
+}
+.list-inline li{
+   border-left: 2px black solid;
+   border-radius: 5px;
+}

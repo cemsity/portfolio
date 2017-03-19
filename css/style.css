@@ -1,0 +1,106 @@
+/*GENERAL*/
+* {
+   box-sizing: border-box;
+}
+html {
+   height: 100%;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100%;
+
+}
+/*Header*/
+.logo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.nav-bar {
+   list-style: none;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   background: red;
+   padding: 0;
+}
+
+.nav-bar a {
+   background: blue;
+   text-decoration: none;
+   display: block;
+   padding: 1rem;
+   color: white;
+
+}
+
+.nav-bar a:hover {
+   background: lightblue;
+}
+
+
+/*wrapper*/
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   max-width: 90%;
+   margin: 0 auto;
+   background: green;
+}
+.wrapper section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+/*ABOUT*/
+#about {
+
+   background: purple;
+}
+#about img {
+   max-width: 200px;
+   max-width: 200px;
+   flex: 1;
+}
+#about p {
+   flex:1;
+}
+
+
+/*Portfolio*/
+#portfolio {
+background: yellow;
+height: 100vh;
+}
+#portfolio ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   justify-content: space-between;
+
+}
+#portfolio li {
+   /*padding: 5rem;*/
+   background: green;
+   margin: 1.5%;
+   /*width: 28%;*/
+}
+
+#portfolio li a {
+   display: block;
+   padding: 5rem;
+}
+
+/*Contact*/
+/*FOOTER*/
+footer {
+   text-align: center;
+   background: orange;
+
+}
+/*MEDIA QUERYS */
